@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Hungry Hearts Soccer School is a digital marketing assistance platform for individuals, professionals and entrepreneurs founded by Mudit Garg. An online community, blog, and service platform for you to develop your business and learn. Our multifold approach is our strength and we invite you to put this to good use.">
+    <meta name="keywords" content="Hungry Hearts Soccer School,Hungry Hearts,HungryHearts,HHSS,
+    Soccer,School,Soccer School,Mumbai Soccer School, Football Academy,Mumbai Football Schools,Football Coaching">
+    <link rel="icon" href="/your_path_to_image/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>HHSS</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="has-navbar-fixed-top">
+
+<!-- NAVBAR -->
+   <nav class="navbar is-fixed-top is-transparent is-spaced has-text-weight-bold" role="navigation" aria-label="main-navigation">
+				<div class="navbar-brand">
+					<a class="navbar-item">
+						<a href="#"><img height="50px" id="logo" src="images/image.png"></a>
+                  <br>
+					</a>
+					<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+      						<span aria-hidden="true"></span>
+      						<span aria-hidden="true"></span>
+      						<span aria-hidden="true"></span>
+    				</a>
+				</div>	
+				<div class="navbar-menu" id="navMenu">
+				<div class="navbar-start">
+
+				</div>
+					<div class="navbar-end">
+					<a class="navbar-item is-tab has-text-success">Home</a>
+					<a class="navbar-item is-tab has-text-success">The Academy</a>
+					<a class="navbar-item is-tab has-text-success">Gallery</a>
+					<a class="navbar-item is-tab has-text-success">Programme</a>
+					<a class="navbar-item is-tab has-text-success">FAQs</a>
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link has-text-success">Teams</a>
+
+						<div class="navbar-dropdown">
+				          <a class="navbar-item is-tab has-text-success">
+				            Under 8
+				          </a>
+				          <a class="navbar-item is-tab has-text-success">
+				            Under 10
+				          </a>
+				          <a class="navbar-item is-tab has-text-success">
+				            Under 12
+				          </a>
+				          <a class="navbar-item is-tab has-text-success">
+				            Under 14
+				          </a>
+				        </div>
+					</div>
+					
+						<div class="navbar-item">
+					  <div class="field is-grouped">
+					    <p class="control">
+					      <a class="button is-primary is-success is-outlined">
+					      	<span class="icon">
+					      		<i class="fa fa-futbol-o" aria-hidden="true"></i>
+					      	</span>
+					        <span>Free Trial</span>
+					      </a>
+					    </p>
+					    <p class="control">
+					      <a class="button is-primary">
+					        <span class="icon">
+					          <i class="fa fa-download" aria-hidden="true"></i>
+					        </span>
+					        <span>Brochure</span>
+					      </a>
+					    </p>
+					  </div>
+					</div>
+				</div>
+			</div>
+	</nav>	
+   <!-- HERO -->
+   <section class="hero is-medium is-bold background-img">
+     <div class="hero-body">
+       <div class="container">
+         <div class="columns">
+            <div class="column">
+               <h1 class="title is-1 has-text-weight-bold has-text-white">
+                 Lets's Build Early
+               </h1>
+               <h2 class="subtitle has-text-white">
+                 <button class="button is-success">Apply Now</button>
+               </h2>            
+            </div>
+            <div class="column is-relative">
+               <iframe  id="video" src="https://www.youtube.com/embed/zMkob9_G9Cw"></iframe>
+            </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- SECTION 2 START -->
+   <div class="block"></div>
+   <!-- SECTION 2 END -->
+   <footer class="footer-img">
+      <div class="container">
+         <div class="columns">
+            <div class="column">
+               <div class="subtitle is-italic has-text-white has-text-weight-bold">Football is played with your head. Your feet are just the tools.</div>
+            </div>
+            <div class="column"></div>
+         </div>
+      </div>
+   </footer>
+<script>
+		//JS code to manipulate navbar toggle
+	document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/*BASE STYLES*/
+
+body{
+	box-sizing: border-box;
+	font-size: 16px;
+	margin:0;
+	padding:0;
+	border:0;
+    font-family: 'Quicksand', sans-serif;
+}
+.hero{
+	height: 100vh;
+}
+#logo{
+	width: 100px;
+	position: absolute;
+	top: -30px;
+}
+nav{
+	height: 100px;
+}
+
+#video{
+	height: 250%;
+	width: 100%;
+}
+
+.background-img{
+	background: url('../images/hero-bg.jpg') no-repeat;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+
+.footer-img{
+	background: url('../images/footer2.jpg') center bottom no-repeat;
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+	border-top: 3px solid #333;
+}
+
+
+/*RESPONSIVE CODE*/
+
+@media(min-width: 1024px){
+	#logo{
+		top: -10px;
+
+	}
+}
