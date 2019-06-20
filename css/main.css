@@ -50,12 +50,7 @@ body{
 
 /*RESPONSIVE CODE*/
 
-@media(min-width: 1024px){
-	#logo{
-		top: -10px;
 
-	}
-}
 
 /*Mobile View*/
 @media(max-width: 900px;){
