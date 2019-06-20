@@ -66,7 +66,7 @@ body{
 
 /*PROGRAMME START*/
 .programme-background-img{
-	background: url('../images/programme-bg.jpg') center bottom no-repeat;
+	background: url('../images/programme-bg.jpg') center no-repeat;
 	height: 100vh;
 	width: 100%;
 	background-size: cover;
@@ -82,6 +82,23 @@ body{
 }
 /*FAQ END*/
 
+/*TEAMS START*/
+.teams-background-img{
+	background: url('../images/teams-bg.jpg') center no-repeat;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+/*TEAMS END*/
+
+/*TRIAL START*/
+.trial-background-img{
+	background: url('../images/trial-bg.jpg') center bottom no-repeat;
+	height: auto;
+	width: 100%;
+	background-size: cover;
+}
+/*TRIAL END*/
 /*FOOTER START*/
 .footer-img{
 	background: url('../images/footer3.png') center no-repeat;
