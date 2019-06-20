@@ -63,6 +63,25 @@ body{
 	background-size: cover;
 }
 /*GALLERY END*/
+
+/*PROGRAMME START*/
+.programme-background-img{
+	background: url('../images/programme-bg.jpg') center bottom no-repeat;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+/*PROGRAMME END*/
+
+/*FAQ START*/
+.faq-background-img{
+	background: url('../images/faq-bg.jpg') center no-repeat;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+/*FAQ END*/
+
 /*FOOTER START*/
 .footer-img{
 	background: url('../images/footer3.png') center no-repeat;
